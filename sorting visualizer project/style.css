@@ -1,0 +1,36 @@
+#container{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #334d50, #cbcaa5);
+
+   
+}
+.bar{
+    width: 10px;
+    background-color: black;
+    margin: 1px;
+}
+h1{
+    background-color: rgb(153, 226, 43);
+    border: 2px solid black;
+    border-radius: 5px; 
+
+
+}
+#btn{
+    background-color: #4b5052;
+	border: 2px solid black;
+	color: whitesmoke;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+	display: inline-block;
+    border-radius: 5px;  
+}
